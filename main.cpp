@@ -1,15 +1,22 @@
 #include <iostream>
 #include <fstream>
+#include <string>
+#include <vector>
 
 using namespace std;
 
 int main()
 {
+    //int matricula = stoi("6515651");
+    //cout << "stoi(\"matricula\"): " << matricula << endl;
+    vector<string> v;
+
     fstream arquivo;
     arquivo.open("arquivos para leitura/funcoes.txt", ios::in);
     string linha;
     while(getline(arquivo, linha))
     {
+        v.push_back(linha);
         cout << "\nLinha a ser testada: " << linha << endl;
 
         if(linha == "carregarEmpresa()")
@@ -40,5 +47,19 @@ int main()
             cout << "O teste com '" << linha << "' funcionou.\n";
     }
     arquivo.close();
+
+    cout << "\nImprimindo o conteudo de v: \n";
+    for(auto i : v)
+        cout << i << endl;
+    
+
+    fstream arquivo2;
+    arquivo2.open("arquivos para escrita/funcoes_salvas.txt", ios::out);
+    for(auto i : v)
+    {
+        arquivo2 << i << endl;
+    }
+    arquivo2.close();
+    
     return 0;
 }
