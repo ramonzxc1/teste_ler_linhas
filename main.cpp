@@ -21,29 +21,29 @@ int main()
 
         if(linha == "carregarEmpresa()")
             cout << "O teste com '" << linha << "' funcionou.\n";
-        if(linha == "carregarAsg()")
+        else if(linha == "carregarAsg()")
             cout << "O teste com '" << linha << "' funcionou.\n";
-        if(linha == "carregarVendedor()")
+        else if(linha == "carregarVendedor()")
             cout << "O teste com '" << linha << "' funcionou.\n";
-        if(linha == "carregarGerente()")
+        else if(linha == "carregarGerente()")
             cout << "O teste com '" << linha << "' funcionou.\n";
-        if(linha == "carregaDono()")
+        else if(linha == "carregaDono()")
             cout << "O teste com '" << linha << "' funcionou.\n";
-        if(linha == "imprimeAsgs()")
+        else if(linha == "imprimeAsgs()")
             cout << "O teste com '" << linha << "' funcionou.\n";
-        if(linha == "imprimeVendedores()")
+        else if(linha == "imprimeVendedores()")
             cout << "O teste com '" << linha << "' funcionou.\n";
-        if(linha == "imprimeGerentes()")
+        else if(linha == "imprimeGerentes()")
             cout << "O teste com '" << linha << "' funcionou.\n";
-        if(linha == "imprimeDono()")
+        else if(linha == "imprimeDono()")
             cout << "O teste com '" << linha << "' funcionou.\n";
-        if(linha == "buscaFuncionario()")
+        else if(linha == "buscaFuncionario()")
             cout << "O teste com '" << linha << "' funcionou.\n";
-        if(linha == "calculaSalarioFuncionario()")
+        else if(linha == "calculaSalarioFuncionario()")
             cout << "O teste com '" << linha << "' funcionou.\n";
-        if(linha == "calculaTodoOsSalarios()")
+        else if(linha == "calculaTodoOsSalarios()")
             cout << "O teste com '" << linha << "' funcionou.\n";
-        if(linha == "calcularRecisao()")
+        else if(linha == "calcularRecisao()")
             cout << "O teste com '" << linha << "' funcionou.\n";
     }
     arquivo.close();
