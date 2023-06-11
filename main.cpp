@@ -7,8 +7,8 @@ using namespace std;
 
 int main()
 {
-    //int matricula = stoi("6515651");
-    //cout << "stoi(\"matricula\"): " << matricula << endl;
+    int matricula = stoi("72.385-9");
+    cout << "stoi(\"matricula\"): " << matricula << endl;
     vector<string> v;
 
     fstream arquivo;
