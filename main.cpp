@@ -5,8 +5,19 @@
 
 using namespace std;
 
+/**
+    @file main.cpp
+    @brief programa teste para ver como doxygen funciona.
+    @author Ramon Oliveira
+    @since 01/06/2023
+    @date 19/06/2023
+    @sa http://www.google.com/
+*/
+
+// @brief funcao main
 int main()
 {
+    // @bief matricula para teste
     int matricula = stoi("72.385-9");
     cout << "stoi(\"matricula\"): " << matricula << endl;
     vector<string> v;
